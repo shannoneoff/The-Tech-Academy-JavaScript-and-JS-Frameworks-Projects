@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+
+    <body>
+        <h1>JavaScript Bitwise</h1>
+        
+        <h2>The & Operator</h2>
+        <p id="andOp"></p>
+
+        <h2>The | Operator</h2>
+        <p id="orOp"></p>
+
+        <h2>The ^ Operator</h2>
+        <p id="xorOp"></p>
+
+        <br>
+
+        <h1>RegExp Object</h1>
+
+        <h2>Text Search</h2>
+        <p id="searchRegExp"></p>
+        
+        <h2>Text Replace</h2>
+        <p>Replace "ants" with "donkeys" in the paragraph below:</p>
+        <button onclick="replaceFunction()">Try it</button>
+        <p id="rplcRegExp">I saw some ants on the trail.</p>
+
+        <br>
+        <h1>Try, Catch, Throw, Finally</h1>
+        <p>Please input a number between 31 and 40 in the box below:</p>
+        <input id="tryCatchThrowDemo" type="text">
+        <button type="button" onclick="tctFunction()">Test Input</button>
+        <p id="tryCatchThrowFinally"></p>
+
+        <br>
+        <h1>"Use Strict"</h1>
+        <p>"use strict" used in a function causes errors only in that function.</p>
+        <p>Activate debugging in your browser(F12) to see the error report.</p>
+
+        <br>
+        <h1>Keyword: <i>this</i></h1>
+        <p>In this example, <b>this</b> refers to the <b>animal</b> object.</p>
+        <p id="animalDemo"></p>
+
+        <br>
+        <h1>Redeclaring a Variable Using <i>let</i></h1>
+        <p id="letDemo"></p>
+
+        <br>
+        <h1>Const</h1>
+        <p>In this constant array, an element was changed:</p>
+        <p id="constDemo"></p>
+
+        <br>
+        <h1>Arrow Function</h1>
+        <p id="arrow"></p>
+
+        <br>
+        <h1>Class Method with Constructor</h1>
+        <p id="classMethod"></p>
+
+        <br>
+        <h1>Debugger</h1>
+        <p id="debugger"></p>
+        <p>With the debugger turned on, the code below should stop executing before it executes the third line.</p>
+        
+        <br>
+        <h1>Array.findIndex()</h1>
+        <p id="findIndex"></p>
+
+        <br>
+        <h1>Number.isInteger()</h1>
+        <p>The isInteger() method returns true if the argument is an integer, or false if not.</p>
+        <p id="numIsIntegerMethod"></p>
+
+        <br>
+        <h1>Number.isFinite()</h1>
+        <p>The isFinite() method returns false if the argument is Infinity or NaN, or true if not.</p>
+        <p id="numIsFiniteMethod"></p>
+
+        <br>
+        <h1>The ** Operator</h1>
+        <p id="expoOp"></p>
+
+        <br>
+        <h1>Form Validation</h1>
+        <form name="aForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            Name: <input type="text" name="firstName">
+            <input type="submit" value="Submit">
+        </form>
+
+        <script src="./JS/JavaScriptChallenge.js"></script>
+    </body>
+</html>
