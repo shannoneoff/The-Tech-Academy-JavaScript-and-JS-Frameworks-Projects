@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Super Class!</title>
+        <script src="./JS/super_class.js"></script>
+    </head>
+
+    <body>
+        <h1>The Area of a Shape</h1>
+        <h2>Find the area of a shape: Rectangle, Triangle, or Circle!</h2>
+
+        <form>
+            <label for="shape_name">Select a Shape: </label>
+            <select id="shape_name" onchange="getArea()">
+                <option> ---Choose Shape--- </option>
+                <option value="rectangle"> Rectangle </option>
+                <option value="triangle"> Triangle </option>
+                <option value="circle"> Circle </option>
+            </select>
+
+            <br><br>
+
+            <p id="id_output"></p>
+        </form>
+
+    </body>
+</html>
