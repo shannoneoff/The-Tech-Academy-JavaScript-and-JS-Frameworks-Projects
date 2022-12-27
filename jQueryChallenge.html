@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery Challenge</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <style>
+            #panel,
+            #flip {
+                padding: 5px;
+                text-align: center;
+                background-color: #c8ed60;
+                border: solid 3px #201f1f;
+            }
+        
+            #panel {
+                padding: 40px;
+                display: none;
+            }
+
+            #panel2,
+            #flip2 {
+                padding: 5px;
+                font-size: 20px;
+                text-align: center;
+                background-color: #ecf6dc;
+                color: #201f1f;
+                border: solid 3px #fafafa;
+                border-radius: 5px;
+            }
+        
+            #panel2 {
+                padding: 40px;
+                display: none;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Heading</h1>
+        <p>Paragraph 1.</p>
+        <p>Paragraph 2.</p>
+        <button id="test_button">Click me to hide the heading above</button>
+
+        <br>
+
+        <h2>Heading</h2>
+        <p>Paragraph for #id selector function.</p>
+        <p id="test">2nd paragraph.</p>
+        <button id="second_button">Click Me to hide the paragraph above</button>
+
+        <br>
+
+        <h3 class="test">Heading with class "test"</h3>
+        <p class="test">Paragraph with class "test".</p>
+        <p>Regular paragraph.</p>
+        <button id="third_button">Click me to make the heading and 1st paragraph above disappear</button>
+
+        <br>
+        
+        <p>List 1:</p>
+        <ul>
+            <li>Latte</li>
+            <li>Mocha</li>
+            <li>Cappuccino</li>
+        </ul>
+        <p>List 2:</p>
+        <ul>
+            <li>Latte</li>
+            <li>Mocha</li>
+            <li>Cappuccino</li>
+        </ul>
+        <button id="fourth_button">Click me to make the first item in each list above disappear</button>
+
+        <br>
+
+        <p id="p9">Paragraph 9 aka p9.</p>
+
+        <br>
+
+        Planet: <input type="text" name="planetname"><br>
+        Constellation: <input type="text" name="constellationname">
+
+        <br>
+
+        <p>If you click on the "Hide" button, all the paragraphs on the page will disappear.<br>
+        If you then click on the "Show" button, the paragraphs will reappear.</p>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+
+        <br><br><br>
+
+        <button id="fifth_button">Toggle between showing/hiding Paragraph A below</button>
+        <p id="toggleps">Paragraph A.</p>
+        <p>Paragraph B.</p>
+
+        <br>
+
+        <h4>Demonstrating fadeOut():</h4>
+        <button id="sixth_button">Click to fade out boxes below</button>
+        <div id="div1" style="width: 80px; height: 80px; background-color: purple;"></div><br>
+        <div id="div2" style="width: 100px; height: 90px; background-color: greenyellow;"></div><br>
+
+        <br>
+        
+        <div id="flip">Click to slide a secret panel down</div>
+        <div id="panel">Secret panel!!!</div>
+
+        <br><br>
+
+        <button id="seventh_button">Start Animation</button>
+        <div id="div3" style="background: brown; height: 50px; width: 50px; position: absolute;"></div>
+
+        <br><br><br><br><br><br>
+
+        <button id="stop">Stop sliding</button>
+        <div id="flip2">Click to slide a different secret panel down</div>
+        <div id="panel2">Secret panel HERE!</div>
+
+        <br><br><br><br><br>
+
+        <button id="eighth_button">Hide</button>
+        <p id="hidep">This text will disappear if you push the button above.</p>
+
+        <br>
+
+        <p id="chainp">jQuery fun!! haha</p>
+        <button id="ninth_button">Hide the text above by clicking here</button>
+        
+        <br><br>
+
+        <p id="textp">Here is some <b>bold text</b>.</p>
+        <button id="tenth_button">Show Text</button>
+        <button id="eleventh_button">Show HTML</button>
+
+        <br><br>
+
+        <p><a href="https://www.learncodinganywhere.com" id="tTA">The Tech Academy</a></p>
+        <button id="twelfth_button">Show href Value of the website link above</button>
+
+        <br>
+
+        <script src="./JS/jQueryChallenge.js"></script>
+    </body>
+</html>
