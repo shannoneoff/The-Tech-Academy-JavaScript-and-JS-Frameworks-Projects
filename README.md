@@ -48,7 +48,7 @@ Featured in the code for this page is the following:
 - .html displays the HTML of an element
 - .attr displays the attirbute of a designated element, i.e. 'href'
 
-## **[Object-Oriented Programming Challenge](SimonSaysGame/index.html) webpage**
+## **[Simon Says Game](SimonSaysGame/index.html) webpage**
 ### **with JavaScript [here](SimonSaysGame/theGameRules.js)**
 ### **with CSS [here](SimonSaysGame/style.css)**
 Featured in the code for this page is the following:
