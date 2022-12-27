@@ -22,6 +22,7 @@ $(function () {
         colors.removeClass('on');
     };
 
+    //Added code to cause squares to slide right then left when 'Start' is clicked
     $('#start').click(function () {
         $('li').animate({
             left: '+=50px'
@@ -31,6 +32,7 @@ $(function () {
             }, 800);
         });
     });
+    //End inserted code section
 
     var showLightSequence = function () {
         lightOff();
@@ -76,9 +78,9 @@ $(function () {
                 */
 
                 lightOn(clickedNo);
-                $(this).fadeOut(1000, function () {
+                $(this).fadeOut(1000, function () { //Added code to cause clicked square to fade out...
                     lightOff();
-                    $(this).fadeIn();
+                    $(this).fadeIn();               //...then fade back in
                     clickedNo++;
                 });
             }
