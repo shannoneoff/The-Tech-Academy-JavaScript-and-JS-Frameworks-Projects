@@ -54,3 +54,9 @@ Featured in the code for this page is the following:
 Featured in the code for this page is the following:
 - Within pre-written code, used jQuery to cause squares to fade in and out when clicked
 - Inserted code using .animate() to cause the squares to slide right then left when 'Start' is clicked
+
+## **[Public API](public_API_AJAX_JSON.html) webpage**
+Featured in the code for this page is the following:
+- AJAX
+- JSON
+- Utilizing discogs.com's public API
